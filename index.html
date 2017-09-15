@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Résumé</title>
+
+    <link rel="shortcut icon" href="./assets/img/favicon/favicon.ico">
+
+    <!-- Noto Sans KR-Hestia -->
+    <link rel="stylesheet" href="./assets/noto-fonts/stylesheets/NotoSansKR-Hestia.css">
+
+    <!-- font-awesome -->
+    <link href="./assets/bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- custom css -->
+    <link href="./assets/css/common.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+    <!-- IE8 에서 HTML5 요소와 미디어 쿼리를 위한 HTML5 shim 와 Respond.js -->
+    <!-- WARNING: Respond.js 는 당신이 file:// 을 통해 페이지를 볼 때는 동작하지 않습니다. -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="resume-wrapper">
+
+      <!-- header -->
+      <header>
+        <h1 class="heading-container">Resume</h1>
+        <h2 class="name-container">Kim Ji-Hwan</h2>
+        <h3 class="job-container">Developer</h3>
+        <div class="profile-picture" style="background-image:url(./assets/img/profile.jpg)"></div>
+        <div class="contact-container">
+          <ul class="contact-list">
+            <li>
+              <a href="tel:01041726903">+82. 010. 4172. 6903</a>
+              <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+            </li>
+            <li>
+              <a href="mailto:mastrayer@naver.com">mastrayer@naver.com</a>
+              <span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+            </li>
+            <li>
+              <a href="https://github.com/mastrayer" target="_blank">https://github.com/mastrayer</a>
+              <span><i class="fa fa-github" aria-hidden="true"></i></span>
+            </li>
+          </ul>
+        </div>
+      </header><!-- header -->
+
+      <!-- main -->
+      <section id="main">
+        <div class="resume-item-wrapper">
+
+          <!-- experince -->
+          <section class="resume-item experience">
+            <div class="inner">
+              <h2>경력사항</h2>
+              <ul>
+                <li>
+                  <h3>트러스트어스</h3>
+                  <h4 class="company">PHP, Web Front-End/Back-End Developer</h4>
+                  <span class="date">2014. 07 ~</span>
+                  <p class="detail">
+                    회사의 B2C 플랫폼중 하나인 포잉 웹의 프론트엔드/백엔드를 주력으로 담당해서 개발하고 있습니다.
+                    그리고 API 제작과 DB 유지보수 및 어드민 툴을 개발하고 있습니다.
+                    <blockquote>
+                      Server: PHP, MySQL, Memcache, Redis<br>
+                      Web Front-End: Javascript, HTML, CSS, jQuery, Gulp
+                    </blockquote>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </section><!-- experince -->
+
+          <!-- project -->
+          <section class="resume-item project">
+            <div class="inner">
+              <h2>프로젝트</h2>
+
+              <strong>Trust Us</strong>
+              <ul>
+                <li>
+                  <h3><a href="https://www.poing.co.kr" target="_blank">포잉 웹</a></h3>
+                  <p class="detail">
+                    포잉 서비스의 웹 플랫폼의 초기 단계부터 현재까지 개발 및 유지보수를 하고 있습니다.
+                    <blockquote>
+                      Server: PHP, Memcache, Mysql, Redis<br>
+                      Web Front-End: Javascript, HTML, CSS, SASS, jQuery, Gulp<br>
+                    </blockquote>
+                  </p>
+                </li>
+
+                <li>
+                  <h3><a href="#" target="_blank">매장전용예약</a></h3>
+                  <p class="detail">
+                    기존 포잉 예약을 사용하지 않는 매장에서 예약이 가능한 서비스를 별도로 제작했습니다.
+                    <blockquote>
+                      Server: PHP, Laravel<br>
+                      Web Front-End: SASS, jQuery, Vue.js, SPA, Webpack<br>
+                    </blockquote>
+                  </p>
+                </li>
+
+                <li>
+                  <h3><a href="#" target="_blank">포잉 스토어 1.0</a></h3>
+                  <p class="detail">
+                    포잉 제휴업장들이 포잉 서비스에서 들어온 예약을 확인하고 관리할 수 있게 하는 B2B 서비스를 유지보수 했습니다.
+                    <blockquote>
+                      Server: Ruby on Rails, MongoDB, Redis<br>
+                      Web Front-End: SPA, Spine.js, jQuery, Coffee-script, SASS<br>
+                    </blockquote>
+                  </p>
+                </li>
+
+                <li>
+                  <h3><a href="#" target="_blank">포잉 어드민</a></h3>
+                  <p class="detail">
+                    포잉 서비스의 운영을 위한 사내 어드민을 제작하고 유지보수하고 있습니다. 
+                    <blockquote>
+                      Server: PHP, Codeigniter, MySql, MongoDB, Redis, Memcache<br>
+                      Web Front-End: jQuery, Bootstrap<br>
+                    </blockquote>
+                  </p>
+                </li>
+
+                <li>
+                  <h3><a href="#" target="_blank">포잉 API</a></h3>
+                  <p class="detail">
+                    포잉 서비스에서 호출하는 API 서버를 개발하였고, 유지보수하고 있습니다.
+                    <blockquote>
+                      Server: PHP, Codeigniter, MySql, Redis, Memcache<br>
+                    </blockquote>
+                  </p>
+                </li>
+              </ul>
+
+              <strong>개인 프로젝트</strong>
+              <ul>
+                <li>
+                  <h3><a href="#" target="_blank">Legend Of League</a></h3>
+                  <p class="detail">
+                    NHN NEXT 개발경험프로젝트(게임) 수업에서 팀 프로젝트로 만들어진 결과물입니다. 클라이언트 방식을 채용한 4:4 멀티플레이가 가능한 탑뷰 액션 게임입니다. 로비와 방을 웹으로 구현하고 웹으로부터 접속할 수 있도록 크롬, 파이어폭스 플러그인을 사용했습니다. 게임 제목은 리그 오브 레전드를 패러디했습니다.
+                    <blockquote>
+                      Game Server: C++, MySQL, Windows Server<br>
+                      Game Client: C++, Direct3D, Direct2D<br>
+                      Web Server: Python, Flask, MySQL, Nginx, Ubuntu Server<br>
+                      Web Front-End: JavaScript, HTML5, CSS, jQuery, FireBreath(Browser Plugin)
+                    </blockquote>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </section><!-- project -->
+
+          <!-- speaker -->
+          <section class="resume-item speaker">
+            <div class="inner">
+              <h2>발표</h2>
+              <ul>
+                <li>
+                  <h3>JSON For modern C++</h3>
+                  <span class="date">2016. 04. 12</span>
+                  <p class="detail">
+                    C++ JSON 라이브러리에 대한 소개 발표입니다.
+                    <a href="https://www.slideshare.net/mastrayer/json-for-modern-c" target="_blank">발표 자료</a>
+                  </p>
+                </li>
+
+                <li>
+                  <h3>C#으로 게임 엔진 만들기 1~3</h3>
+                  <span class="date">2014. 04. 05</span>
+                  <p class="detail">
+                    C++로 작성한 게임엔진의 코어 라이브러리를 C++/CLI로 래핑한 후, 래핑된 DLL을 C#에서 불러들여 UI를 만드는 것에 대한 발표자료입니다.
+                    주기적으로 슬라이드를 작성하다, 개인 사정때문에 중단되었습니다.
+                    <a href="https://www.slideshare.net/mastrayer/c-1-33170060" target="_blank">발표 자료 1</a>
+                    <a href="https://www.slideshare.net/mastrayer/c-2-33256381" target="_blank">발표 자료 2</a>
+                    <a href="https://www.slideshare.net/mastrayer/c-3-33338484" target="_blank">발표 자료 3</a>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </section><!-- speaker -->
+
+          <!-- activity -->
+          <section class="resume-item activity">
+            <div class="inner">
+              <h2>외부활동</h2>
+              <ul>
+                <li>
+                  <h3>Vuetiful Korea 2nd</h3>
+                  <h4 class="organization">Vue.js Korea</h4>
+                  <span class="date">2017. 08. 23</span>
+                  <p class="detail">
+                    Vue.js 한국어 사용자 모임 2회를 주최했습니다.
+                    <a href="https://vuejs-kr.github.io/meetup/#/second" target="_blank">상세 내용</a>
+                  </p>
+                </li>
+
+                <li>
+                  <h3>Vuetiful Korea 1st</h3>
+                  <h4 class="organization">Vue.js Korea</h4>
+                  <span class="date">2017. 04. 19</span>
+                  <p class="detail">
+                    Vue.js 한국어 사용자 모임을 주최했습니다.
+                    <a href="https://vuejs-kr.github.io/meetup/" target="_blank">상세 내용</a>
+                    <a href="https://vuejs-kr.github.io/vue/meetup/vuetiful/korea/2017/04/23/meet-up-slide/" target="_blank">발표 자료</a>
+                  </p>
+                </li>
+
+                <li>
+                  <h3>부산광역시 정보영재교육원 고등과정</h3>
+                  <h4 class="organization">부산광역시정보영재교육원</h4>
+                  <span class="date">2011. 01. 21</span>
+                  <p class="detail">
+                    고등학생때 부산광역시 정보영재교육원의 정보영재 과정을 이수했습니다.
+                  </p>
+                </li>
+
+                <li>
+                  <h3>부산광역시 동래영재교육원 정보영재</h3>
+                  <h4 class="organization">부산광역시동래영재교육원</h4>
+                  <span class="date">2006. 06. 21</span>
+                  <p class="detail">
+                    초등학생때 동래영재교육원의 정보영재 과정을 이수했습니다.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </section><!-- activity -->
+
+          <!-- award -->
+          <section class="resume-item award">
+            <div class="inner">
+              <h2>수상내역</h2>
+              <ul>
+                <li>
+                  <h3>한국정보올림피아드 장려상</h3>
+                  <h4 class="organization">한국정보화진흥원</h4>
+                  <span class="date">2012. 08. 14</span>
+                </li>
+                <li>
+                  <h3>한국정보올림피아드 부산대회 은상</h3>
+                  <h4 class="organization">한국정보화진흥원</h4>
+                  <span class="date">2012. 06. 22</span>
+                </li>
+                <li>
+                  <h3>전국 정보과학창의성대회 은상</h3>
+                  <h4 class="organization">전국컴퓨터교육협의회 / 인덕대학교</h4>
+                  <span class="date">2011. 09. 02</span>
+                </li>
+                <li>
+                  <h3>한국정보올림피아드 장려상</h3>
+                  <h4 class="organization">한국정보화진흥원</h4>
+                  <span class="date">2011. 08. 24</span>
+                </li>
+                <li>
+                  <h3>프로그래밍경시대회 동상</h3>
+                  <h4 class="organization">한국정보과학교육협회 / 성균관대학교</h4>
+                  <span class="date">2011. 07. 22</span>
+                </li>
+                <li>
+                  <h3>한국정보올림피아드 부산대회 동상</h3>
+                  <h4 class="organization">한국정보화진흥원</h4>
+                  <span class="date">2009. 06. 15</span>
+                </li>
+                <li>
+                  <h3>전국컴퓨터경시대회 동상</h3>
+                  <h4 class="organization">한국학원총연합회 / 숭실대학교</h4>
+                  <span class="date">2008. 08. 27</span>
+                </li>
+                <li>
+                  <h3>한국정보올림피아드 부산대회 금상</h3>
+                  <h4 class="organization">한국정보화진흥원</h4>
+                  <span class="date">2008. 07. 07</span>
+                </li>
+                <li>
+                  <h3>전국 정보과학 경시대회 장려상</h3>
+                  <h4 class="organization">한국정보과학진흥협회</h4>
+                  <span class="date">2008. 06. 23</span>
+                </li>
+                <li>
+                  <h3>한국정보올림피아드 부산대회 장려상</h3>
+                  <h4 class="organization">한국정보화진흥원</h4>
+                  <span class="date">2007. 06. 22</span>
+                </li>
+              </ul>
+            </div>
+          </section><!-- award -->
+
+          <!-- skill -->
+          <section class="resume-item skill">
+            <div class="inner">
+              <h2>기술스택</h2>
+
+              <strong>관심분야</strong>
+              <ul class="keyword">
+                <li>Game Engine</li>
+                <li>Deep Learning</li>
+                <li>Data Structure & Algorithms</li>
+                <li>Computer Graphics</li>
+              </ul>
+
+              <strong>Web Front-End</strong>
+
+              <ul>
+                <li>
+                  <h3>Vue.js</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 85% ;"></span>
+                  </div>
+                </li>
+
+                <li>
+                  <h3>jQuery</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 95% ;"></span>
+                  </div>
+                </li>
+              </ul>
+
+              <strong>Mobile</strong>
+              <ul>
+                <li>
+                  <h3>Android</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 15% ;"></span>
+                  </div>
+                </li>
+              </ul>
+              
+              <strong>Server</strong>
+              <ul>
+                <li>
+                  <h3>Ruby on Rails</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 15% ;"></span>
+                  </div>
+                </li>
+
+                <li>
+                  <h3>Codeigniter</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 70% ;"></span>
+                  </div>
+                </li>
+
+                <li>
+                  <h3>Laravel</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 60% ;"></span>
+                  </div>
+                </li>
+
+                <li>
+                  <h3>AWS</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 50% ;"></span>
+                  </div>
+                </li>
+              </ul>
+
+              <strong>Language</strong>
+              <ul>
+                <li>
+                  <h3>HTML, CSS</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 95% ;"></span>
+                  </div>
+                </li>
+
+                <li>
+                  <h3>JavaScript (ES6)</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 60% ;"></span>
+                  </div>
+                </li>
+
+                <li>
+                  <h3>C++</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 60% ;"></span>
+                  </div>
+                </li>
+
+                <li>
+                  <h3>C#</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 40% ;"></span>
+                  </div>
+                </li>
+
+                <li>
+                  <h3>Python</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 15% ;"></span>
+                  </div>
+                </li>
+              </ul>
+
+              <strong>Game Programming</strong>
+              <ul>
+                <li>
+                  <h3>Unity</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 50% ;"></span>
+                  </div>
+                </li>
+
+                <li>
+                  <h3>DirectX 9</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 50% ;"></span>
+                  </div>
+                </li>
+
+                <li>
+                  <h3>DirectX 11</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 35% ;"></span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section><!-- skill -->
+        </div>
+      </section><!-- main -->
+
+      <!-- footer -->
+      <footer>
+          © 2017 <a href="https://github.com/mastrayer" target="_blank">Kim Ji-Hwan</a>. All rights reserved.
+      </footer><!-- footer -->
+
+    </div>
+  </body>
+</html>
