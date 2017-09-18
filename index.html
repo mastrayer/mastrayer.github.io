@@ -53,12 +53,21 @@
         </div>
       </header><!-- header -->
 
+      <section id="index">
+        <a href="#experience">경력사항</a>
+        <a href="#project">프로젝트</a>
+        <a href="#speaker">발표</a>
+        <a href="#activity">외부활동</a>
+        <a href="#award">수상내역</a>
+        <a href="#skill">기술스택</a>
+      </section>
+
       <!-- main -->
       <section id="main">
         <div class="resume-item-wrapper">
 
           <!-- experince -->
-          <section class="resume-item experience">
+          <section id="experience" class="resume-item experience">
             <div class="inner">
               <h2>경력사항</h2>
               <ul>
@@ -80,7 +89,7 @@
           </section><!-- experince -->
 
           <!-- project -->
-          <section class="resume-item project">
+          <section id="project" class="resume-item project">
             <div class="inner">
               <h2>프로젝트</h2>
 
@@ -98,7 +107,7 @@
                 </li>
 
                 <li>
-                  <h3><a href="#" target="_blank">매장전용예약</a></h3>
+                  <h3><a>매장전용예약</a></h3>
                   <p class="detail">
                     기존 포잉 예약을 사용하지 않는 매장에서 예약이 가능한 서비스를 별도로 제작했습니다.
                     <blockquote>
@@ -109,7 +118,7 @@
                 </li>
 
                 <li>
-                  <h3><a href="#" target="_blank">포잉 스토어 1.0</a></h3>
+                  <h3><a>포잉 스토어 1.0</a></h3>
                   <p class="detail">
                     포잉 제휴업장들이 포잉 서비스에서 들어온 예약을 확인하고 관리할 수 있게 하는 B2B 서비스를 유지보수 했습니다.
                     <blockquote>
@@ -120,7 +129,7 @@
                 </li>
 
                 <li>
-                  <h3><a href="#" target="_blank">포잉 어드민</a></h3>
+                  <h3><a>포잉 어드민</a></h3>
                   <p class="detail">
                     포잉 서비스의 운영을 위한 사내 어드민을 제작하고 유지보수하고 있습니다. 
                     <blockquote>
@@ -131,7 +140,7 @@
                 </li>
 
                 <li>
-                  <h3><a href="#" target="_blank">포잉 API</a></h3>
+                  <h3><a>포잉 API</a></h3>
                   <p class="detail">
                     포잉 서비스에서 호출하는 API 서버를 개발하였고, 유지보수하고 있습니다.
                     <blockquote>
@@ -144,12 +153,13 @@
               <strong>개인 프로젝트</strong>
               <ul>
                 <li>
-                  <h3><a href="#" target="_blank">Legend Of League</a></h3>
+                  <h3><a href="https://github.com/mastrayer/csm" target="_blank">Legend Of League</a></h3>
                   <p class="detail">
-                    NHN NEXT 개발경험프로젝트(게임) 수업에서 팀 프로젝트로 만들어진 결과물입니다. 클라이언트 방식을 채용한 4:4 멀티플레이가 가능한 탑뷰 액션 게임입니다. 로비와 방을 웹으로 구현하고 웹으로부터 접속할 수 있도록 크롬, 파이어폭스 플러그인을 사용했습니다. 게임 제목은 리그 오브 레전드를 패러디했습니다.
+                    NHN NEXT 개발경험프로젝트(게임) 수업에서 팀 프로젝트로 만들어진 결과물입니다. 클라이언트 방식을 채용한 4:4 멀티플레이가 가능한 탑뷰 액션 게임입니다. 로비와 방을 웹으로 구현하고 웹으로부터 접속할 수 있도록 크롬, 파이어폭스 플러그인을 사용했습니다. 타일과 오브젝트를 배치할 수 있는 맵툴과 애니메이션 툴을 C#으로 제작하였고, 게임 제목은 리그 오브 레전드를 패러디했습니다.
                     <blockquote>
                       Game Server: C++, MySQL, Windows Server<br>
                       Game Client: C++, Direct3D, Direct2D<br>
+                      Tool: C#, GDI<br>
                       Web Server: Python, Flask, MySQL, Nginx, Ubuntu Server<br>
                       Web Front-End: JavaScript, HTML5, CSS, jQuery, FireBreath(Browser Plugin)
                     </blockquote>
@@ -160,7 +170,7 @@
           </section><!-- project -->
 
           <!-- speaker -->
-          <section class="resume-item speaker">
+          <section id="speaker" class="resume-item speaker">
             <div class="inner">
               <h2>발표</h2>
               <ul>
@@ -189,7 +199,7 @@
           </section><!-- speaker -->
 
           <!-- activity -->
-          <section class="resume-item activity">
+          <section id="activity" class="resume-item activity">
             <div class="inner">
               <h2>외부활동</h2>
               <ul>
@@ -236,7 +246,7 @@
           </section><!-- activity -->
 
           <!-- award -->
-          <section class="resume-item award">
+          <section id="award" class="resume-item award">
             <div class="inner">
               <h2>수상내역</h2>
               <ul>
@@ -295,17 +305,9 @@
           </section><!-- award -->
 
           <!-- skill -->
-          <section class="resume-item skill">
+          <section id="skill" class="resume-item skill">
             <div class="inner">
               <h2>기술스택</h2>
-
-              <strong>관심분야</strong>
-              <ul class="keyword">
-                <li>Game Engine</li>
-                <li>Deep Learning</li>
-                <li>Data Structure & Algorithms</li>
-                <li>Computer Graphics</li>
-              </ul>
 
               <strong>Web Front-End</strong>
 
@@ -406,6 +408,13 @@
 
               <strong>Game Programming</strong>
               <ul>
+                <li>
+                  <h3>IOCP</h3>
+                  <div class="skill-bar">
+                    <span class="bar" style="width: 30% ;"></span>
+                  </div>
+                </li>
+
                 <li>
                   <h3>Unity</h3>
                   <div class="skill-bar">

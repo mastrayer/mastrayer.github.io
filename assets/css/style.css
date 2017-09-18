@@ -98,6 +98,15 @@ header .contact-container .contact-list li span {
   text-align: center ;
 }
 
+#index {
+  position:fixed;
+  margin-left: 970px;
+  min-width: 60px;
+}
+#index > a {
+  display: block;
+  text-decoration: underline;
+}
 
 /* main */
 #main {
@@ -154,7 +163,6 @@ header .contact-container .contact-list li span {
   position: absolute ;
   top: 5px ;
   right: 0 ;
-  color: #bbb ;
   font-size: 12px ;
 }
 .experience .detail {
@@ -224,7 +232,6 @@ header .contact-container .contact-list li span {
   position: absolute ;
   top: 5px ;
   right: 0 ;
-  color: #bbb ;
   font-size: 12px ;
 }
 .speaker .detail {
@@ -252,7 +259,6 @@ header .contact-container .contact-list li span {
   position: absolute ;
   top: 5px ;
   right: 0 ;
-  color: #bbb ;
   font-size: 12px ;
 }
 .activity .detail {
@@ -280,7 +286,6 @@ header .contact-container .contact-list li span {
   position: absolute ;
   top: 5px ;
   right: 0 ;
-  color: #bbb ;
   font-size: 12px ;
 }
 
@@ -311,14 +316,6 @@ header .contact-container .contact-list li span {
 }
 .skill ul li {
   height: 15px ;
-}
-.skill ul.keyword li {
-  float: left;
-  background-color: #E5E5E5;
-  height: auto;
-  padding: 3px 5px;
-  border-radius: 10px;
-  margin: 0 5px 10px 0 !important;
 }
 .skill strong {
   display: block;
@@ -373,5 +370,4 @@ blockquote {
   padding-left: 10px;
   font-size: 10pt;
   border-left: 5px solid #4a4;
-  color: #888;
 }
